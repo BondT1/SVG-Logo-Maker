@@ -2,6 +2,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 
 const { Circle, Square, Triangle } = require("./assets/shapes");
+const { CustomConsole } = require("@jest/console");
 
 // writes the file based on user inputs 
 function writeToFile(fileName, answers) {
