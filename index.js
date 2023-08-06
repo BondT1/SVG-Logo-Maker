@@ -24,7 +24,7 @@ function writeToFile(fileName, answers) {
     string += `<circle cx="150" cy="115" r="80" fill="${answers.shapeBackground}"/>`;
   }
 
-  string += `<text x="150" y="130" text-anchor="middle" font-size="40" fill="${answers.textColor}">${answers.text}</text>`;
+  string += `<text x="150" y="130" text-anchor="middle" font-size="40" fill="${answers.textColour}">${answers.text}</text>`;
   string += "</g>";
   string += "</svg>";
 
@@ -47,8 +47,8 @@ function promptUser() {
       {
         type: "input",
         message:
-          "What text color do you want? (color keyword OR hex)",
-        name: "textColor",
+          "What text colour do you want? (colour keyword OR hex)",
+        name: "textColour",
       },
       {
         type: "list",
@@ -59,7 +59,7 @@ function promptUser() {
       {
         type: "input",
         message:
-          "What shape colour do you want? (color keyword OR hex)",
+          "What shape colour do you want? (colour keyword OR hex)",
         name: "shapeBackground",
       },
     ])
