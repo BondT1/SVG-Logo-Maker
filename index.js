@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-const { Circle, Square, Triangle } = require("./lib/shapes");
+const { Circle, Square, Triangle } = require("./assets/shapes");
 const { CustomConsole } = require("@jest/console");
 
 // writes the file based on user inputs 
@@ -29,7 +29,7 @@ function writeToFile(fileName, answers) {
   string += "</svg>";
 
   fs.writeFile(fileName, string, (err) => {
-      err ? console.log(err) : console.log("Logo Generated");
+      err ? console.log(err) : console.log("Generated logo.svg");
   });
 }
 
@@ -69,7 +69,6 @@ function promptUser() {
         promptUser();
       } else {
         writeToFile("logo.svg", answers);
-        console.log("Generated logo.svg");
       }
     })
 }
