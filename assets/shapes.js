@@ -2,7 +2,7 @@ class Shape {
   constructor() {
     this.colour = "";
   }
-  colour(colourChoice) {
+  Usecolour(colourChoice) {
     this.colour = colourChoice;
   }
 }
@@ -21,7 +21,7 @@ class Square extends Shape {
 
 class Triangle extends Shape {
   render() {
-    return `<polygon points="150, 18 244, 182 56, 182" fill=${this.colour}" />`;
+    return `<polygon points="150, 18 244, 182 56, 182" fill="${this.colour}" />`;
   }
 }
 

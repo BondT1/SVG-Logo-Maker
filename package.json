@@ -2,7 +2,8 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "inquirer": "^8.2.6",
-    "jest": "^29.6.2"
+    "jest": "^29.6.2",
+    "yargs": "^17.7.2"
   },
   "name": "svg-logo-maker",
   "description": "## Your Task",
@@ -12,7 +13,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
