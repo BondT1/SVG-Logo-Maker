@@ -31,7 +31,7 @@ You will be met with 4 subsequent questions.
 Your logo.svg document should now be created. 
 - Open the logo.svg document in your browser and your logo will be presented to you. 
 
-Here is a walkthrough video of the fucntional application - 
+Here is a walkthrough video of the fucntional application - https://drive.google.com/file/d/1bqtMdWbykGb7qG-rD1ls-tQ-YqQAZcfr/view
 
 ## Credits
 
