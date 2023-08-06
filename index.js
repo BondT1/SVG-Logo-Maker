@@ -69,7 +69,7 @@ function promptUser() {
         promptUser();
       } else {
         writeToFile("logo.svg", answers);
-        console.log("Generated logo.svg")
+        console.log("Generated logo.svg");
       }
     })
 }
